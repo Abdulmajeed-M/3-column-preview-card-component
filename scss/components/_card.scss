@@ -12,7 +12,7 @@ body {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         border-radius: $border-radius;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
@@ -34,7 +34,7 @@ body {
     border-top-right-radius: 0;
     border-top-left-radius: 0;  
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         border-radius: $border-radius;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
