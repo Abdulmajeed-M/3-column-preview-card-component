@@ -9,8 +9,15 @@ body {
 }
 
 .card-1 {
-    border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+    @include media-breakpoint-up(md) {
+        border-radius: $border-radius;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
     a {
         color: $primary;
     }
@@ -24,8 +31,15 @@ body {
 }
 
 .card-3 {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;  
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;  
+
+    @include media-breakpoint-up(md) {
+        border-radius: $border-radius;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
     a {
         color: $success;
     }
